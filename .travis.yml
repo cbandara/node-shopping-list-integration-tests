@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: VuDFC8dPLZXDAah2kORp8mYsVsiADlAaDQa/g+CPeuxmCnrfwgX5ReOOKRnVEIMmJ86L1D7sfDO+jMCkglQfe1rL9EWs2/J/7l7Phv2zVteCQWBkKGyCNgdRRwEz54vqyrFnO0IS1akdLR+undPFBTuLKvb/OJQ85Tu0SpqJYz6d9L4nUMpUMfQnMokSxHnPsHpnGOY8RoM3Qkd+FrM0m+yO19FEew4cGyG8kReV42eHVCCvP8tU5jUApvKzXXpfAzPaITQqBYKxbltWRI0jOC+la8aQ0bQmukbuuTqDTTIT5EbHTk29x6A2rb6GkRyzLdpGCqoMByFZJ9f3+AkuKob1Nro4omdJ8agmD07HutG6djJ7M5wwErBaaPLD5+c3t4qVSoVV0z6LdAjmGdzbxEr/8KOeNuf9U6Z7t5obWuZIlMJuVMbaYQNqoAWmvlW9XjyHWcCu02149Y/m17M6MEMoHjur0fyRdLIP/lPTvVvp0Oz87NTd/dx6ihLVXibmvDQ97XM4FkqqSRaGa4m8ZHk43v8NvgZ+5WUPZ2eBWt2zp2ond8SJPdgnmTSnqSQLISj7fSMLL99Z/aPOTpmyU3oSxVIHH7Q7PHQrWwdeW+lJZGNMcyEbk+dWORNPn4OqjzhKum7NDBbxMwa3kND0ZbE0ZiXvXmAzuRYgcZCZgAI=
+  app: blooming-everglades-87457
+  on:
+    repo: cbandara/node-shopping-list-integration-tests
